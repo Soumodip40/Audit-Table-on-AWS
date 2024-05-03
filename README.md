@@ -2,8 +2,7 @@
 Audit Table in AWS
 The aim of this project is to make an audit table in the context of DynamoDB, which helps us to track changes on records in our database. They are an important tool in our toolbelt to understand the stateful transitions that our records go through. This is important for auditing, debugging, and general understanding of how clients are modifying our records. Here in this project I have created an architecture to set one up with the help of DynamoDB, DynamoDB Streams, Lambda, Kinesis Data Firehose, S3, and Amazon Athena.
 
-Application architecture
-application-architecture
+![image](https://github.com/Soumodip40/Audit-Table-on-AWS/assets/128739966/eaf57585-ee47-462d-911a-fc8cad56fe9c)
 
 From this project the key things I have learnt, how to migrate data from a DynamoDB table into a cold store in S3, and perform SQL queries on it using Athena.
 
